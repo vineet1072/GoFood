@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const connectDb = require("./utils/db.js");
 
-const PORT = 5000;
+const PORT = "https://go-food-server-seven.vercel.app";
 
 app.get("/", (req, res) => {
   res.status(200).send("welcome to home page");
