@@ -95,7 +95,7 @@ const Home = () => {
               className="carousel-control-prev-icon"
               aria-hidden="true"
             ></span>
-            <span className="visually-hidden">Previous</span>
+            <span className="visually-hidden">Previouss</span>
           </button>
           <button
             className="carousel-control-next"
