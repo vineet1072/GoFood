@@ -10,12 +10,15 @@ const Home = () => {
 
   const loadData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/foodData", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        "https://gofood-893l.onrender.com/api/foodData",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       const data = await response.json();
 
